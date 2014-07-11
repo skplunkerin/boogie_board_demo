@@ -1,0 +1,5 @@
+# ignore vim files
+*.swp
+
+# bleck mac files
+.DS_Store
