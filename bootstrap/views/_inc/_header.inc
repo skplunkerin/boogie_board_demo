@@ -27,3 +27,5 @@
 </head>
 
 <body id="page-top" class="index">
+
+<?php include '_nav.inc'; ?>
