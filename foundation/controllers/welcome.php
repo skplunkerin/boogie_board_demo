@@ -1,6 +1,6 @@
 <?php
 
-class WelcomeView {
+class Welcome {
   /* private $_vars; */
 
   public function __construct(){
@@ -19,9 +19,14 @@ class WelcomeView {
       include 'views/_inc/_header.inc';
       include 'views/welcome/' . $currentPage . '.php';
       include 'views/_inc/_footer.inc';
+    die('hams');
     } else {
       // Just load page, don't load default header/footer
       include 'views/welcome/' . $currentPage . '.php';
     }
+  }
+
+  public function index( $variables ){
+    $this->show( 'home', 'Boogie Board', TRUE );
   }
 }
