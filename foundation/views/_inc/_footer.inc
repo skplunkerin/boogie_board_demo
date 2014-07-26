@@ -3,16 +3,9 @@
         <hr/>
         <div class="row">
           <div class="large-6 columns">
-            <p>&copy; Copyright no one at all. Go to town.</p>
+            <p><?php echo date('Y'); ?> &copy; Copyright no one at all. Go to town.</p>
           </div>
-          <div class="large-6 columns">
-            <ul class="inline-list right">
-              <li><a href="#">Link 1</a></li>
-              <li><a href="#">Link 2</a></li>
-              <li><a href="#">Link 3</a></li>
-              <li><a href="#">Link 4</a></li>
-            </ul>
-          </div>
+          <?php require "_nav_foot.inc"; ?>
         </div>
       </div>
     </footer>

@@ -13,14 +13,14 @@
                     <div class="modal-body">
                         <h2>Project Title</h2>
                         <hr class="star-primary">
-                        <img src="<?php echo BASE_URL; ?>assets/img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                        <img src="http://placehold.it/900x650&text=1" class="img-responsive img-centered" alt="">
+                        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
                         <ul class="list-inline item-details">
-                            <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
+                            <li><strong><a href="#">Buy</a></strong>
                             </li>
-                            <li>Date: <strong><a href="http://startbootstrap.com">April 2014</a></strong>
+                            <li><strong><a href="#">Reviews</a></strong>
                             </li>
-                            <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
+                            <li><strong><a href="#">Gallery</a></strong>
                             </li>
                         </ul>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -44,14 +44,14 @@
                     <div class="modal-body">
                         <h2>Project Title</h2>
                         <hr class="star-primary">
-                        <img src="<?php echo BASE_URL; ?>assets/img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                        <img src="http://placehold.it/900x650&text=2" class="img-responsive img-centered" alt="">
+                        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
                         <ul class="list-inline item-details">
-                            <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
+                            <li><strong><a href="#">Buy</a></strong>
                             </li>
-                            <li>Date: <strong><a href="http://startbootstrap.com">April 2014</a></strong>
+                            <li><strong><a href="#">Reviews</a></strong>
                             </li>
-                            <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
+                            <li><strong><a href="#">Gallery</a></strong>
                             </li>
                         </ul>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -75,14 +75,14 @@
                     <div class="modal-body">
                         <h2>Project Title</h2>
                         <hr class="star-primary">
-                        <img src="<?php echo BASE_URL; ?>assets/img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                        <img src="http://placehold.it/900x650&text=3" class="img-responsive img-centered" alt="">
+                        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
                         <ul class="list-inline item-details">
-                            <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
+                            <li><strong><a href="#">Buy</a></strong>
                             </li>
-                            <li>Date: <strong><a href="http://startbootstrap.com">April 2014</a></strong>
+                            <li><strong><a href="#">Reviews</a></strong>
                             </li>
-                            <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
+                            <li><strong><a href="#">Gallery</a></strong>
                             </li>
                         </ul>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -106,14 +106,14 @@
                     <div class="modal-body">
                         <h2>Project Title</h2>
                         <hr class="star-primary">
-                        <img src="<?php echo BASE_URL; ?>assets/img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                        <img src="http://placehold.it/900x650&text=4" class="img-responsive img-centered" alt="">
+                        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
                         <ul class="list-inline item-details">
-                            <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
+                            <li><strong><a href="#">Buy</a></strong>
                             </li>
-                            <li>Date: <strong><a href="http://startbootstrap.com">April 2014</a></strong>
+                            <li><strong><a href="#">Reviews</a></strong>
                             </li>
-                            <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
+                            <li><strong><a href="#">Gallery</a></strong>
                             </li>
                         </ul>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -137,14 +137,14 @@
                     <div class="modal-body">
                         <h2>Project Title</h2>
                         <hr class="star-primary">
-                        <img src="<?php echo BASE_URL; ?>assets/img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                        <img src="http://placehold.it/900x650&text=5" class="img-responsive img-centered" alt="">
+                        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
                         <ul class="list-inline item-details">
-                            <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
+                            <li><strong><a href="#">Buy</a></strong>
                             </li>
-                            <li>Date: <strong><a href="http://startbootstrap.com">April 2014</a></strong>
+                            <li><strong><a href="#">Reviews</a></strong>
                             </li>
-                            <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
+                            <li><strong><a href="#">Gallery</a></strong>
                             </li>
                         </ul>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -168,14 +168,14 @@
                     <div class="modal-body">
                         <h2>Project Title</h2>
                         <hr class="star-primary">
-                        <img src="<?php echo BASE_URL; ?>assets/img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                        <img src="http://placehold.it/900x650&text=6" class="img-responsive img-centered" alt="">
+                        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
                         <ul class="list-inline item-details">
-                            <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
+                            <li><strong><a href="#">Buy</a></strong>
                             </li>
-                            <li>Date: <strong><a href="http://startbootstrap.com">April 2014</a></strong>
+                            <li><strong><a href="#">Reviews</a></strong>
                             </li>
-                            <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
+                            <li><strong><a href="#">Gallery</a></strong>
                             </li>
                         </ul>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>

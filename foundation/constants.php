@@ -1,4 +1,4 @@
 <?php
 
 // All constants in project
-define("BASE_URL", "http://localhost/contract_work/boogie_board_demo/foundation/");
+define("BASE_URL", "http://localhost/contract_work/bonneville/boogie_board_demo/foundation/");

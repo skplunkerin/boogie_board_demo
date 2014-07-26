@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Portfolio</h2>
+                <h2>Products</h2>
                 <hr class="star-primary">
             </div>
         </div>
@@ -14,7 +14,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="<?php echo BASE_URL; ?>assets/img/portfolio/cabin.png" class="img-responsive" alt="" />
+                    <img src="http://placehold.it/900x650&text=1" class="img-responsive" alt="" />
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item">
@@ -24,7 +24,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="<?php echo BASE_URL; ?>assets/img/portfolio/cake.png" class="img-responsive" alt="" />
+                    <img src="http://placehold.it/900x650&text=2" class="img-responsive" alt="" />
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item">
@@ -34,7 +34,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="<?php echo BASE_URL; ?>assets/img/portfolio/circus.png" class="img-responsive" alt="" />
+                    <img src="http://placehold.it/900x650&text=3" class="img-responsive" alt="" />
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item">
@@ -44,7 +44,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="<?php echo BASE_URL; ?>assets/img/portfolio/game.png" class="img-responsive" alt="" />
+                    <img src="http://placehold.it/900x650&text=4" class="img-responsive" alt="" />
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item">
@@ -54,7 +54,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="<?php echo BASE_URL; ?>assets/img/portfolio/safe.png" class="img-responsive" alt="" />
+                    <img src="http://placehold.it/900x650&text=5" class="img-responsive" alt="" />
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item">
@@ -64,7 +64,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="<?php echo BASE_URL; ?>assets/img/portfolio/submarine.png" class="img-responsive" alt="" />
+                    <img src="http://placehold.it/900x650&text=6" class="img-responsive" alt="" />
                 </a>
             </div>
         </div>

@@ -12,3 +12,4 @@
     <script src="<?php echo BASE_URL; ?>assets/js/modernizr.js"></script>
   </head>
   <body>
+    <?php require "_nav_head.inc"; ?>
