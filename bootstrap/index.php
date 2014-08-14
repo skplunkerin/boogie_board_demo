@@ -18,9 +18,6 @@ foreach( $path_info as $key => $value ){
     continue;
   $variables[] = $value;
 };
-// echo 'TEST<pre>';
-// var_dump($controller);
-// echo '</pre>';die('test');
 
 // Open controller
 if( file_exists("controllers/{$controller}.php") ){
