@@ -1,3 +1,10 @@
+<?php
+/* echo '<pre>'; */
+/* var_dump($geomaticly); */
+/* echo '<pre>'; */
+/* die('steeeeeeve'); */
+/* $geonav = $geomaticly->module('HARwcNCWU7Rr9uPz'); */
+?>
 <div class="row">
   <div class="large-3 columns">
     <h1>
@@ -8,10 +15,10 @@
     </div>
     <div class="large-9 columns">
       <ul class="button-group right">
-        <li><a href="<?php echo BASE_URL; ?>" class="button">Home</a></li>
-        <li><a href="<?php echo BASE_URL; ?>products" class="button">Products</a></li>
-        <li><a href="<?php echo BASE_URL; ?>welcome/about" class="button">About</a></li>
-        <li><a href="<?php echo BASE_URL; ?>contact" class="button">Contact</a></li>
+        <li><a href="<?php echo BASE_URL; ?>" class="button"><?php echo $geonav["home"]; ?></a></li>
+        <li><a href="<?php echo BASE_URL; ?>products" class="button"><?php echo $geonav["products"]; ?></a></li>
+        <li><a href="<?php echo BASE_URL; ?>welcome/about" class="button"><?php echo $geonav["about"]; ?></a></li>
+        <li><a href="<?php echo BASE_URL; ?>contact" class="button"><?php echo $geonav["contact"]; ?></a></li>
       </ul>
   </div>
 </div>
