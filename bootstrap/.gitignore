@@ -1,2 +1,3 @@
 .htaccess
 constants.php
+helpers/geomaticly.php
