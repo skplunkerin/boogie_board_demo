@@ -1,5 +1,6 @@
 <?php
-// Always include constants
+// Always include config & constants
+require_once "config/config.php";
 require_once "constants.php";
 
 # Get url path info to establish what controller is being called
