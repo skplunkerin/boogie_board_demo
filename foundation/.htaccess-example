@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /contract_work/bonneville/boogie_board_demo/bootstrap/
+    RewriteBase /work/contract_work/bonneville/boogie_board_demo/foundation/
 
     # Map all of the old housemaster.com pages to their new pages
     RewriteRule ^(.*)\.asp$ redirect/index/$1/ [R,QSA,L]
