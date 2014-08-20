@@ -1,9 +1,5 @@
 <?php
-/* echo '<pre>'; */
-/* var_dump($geomaticly); */
-/* echo '<pre>'; */
-/* die('steeeeeeve'); */
-/* $geonav = $geomaticly->module('HARwcNCWU7Rr9uPz'); */
+$geonav = $geomaticly->module('HARwcNCWU7Rr9uPz');
 ?>
 <div class="row">
   <div class="large-3 columns">

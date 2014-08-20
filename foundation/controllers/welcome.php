@@ -8,6 +8,7 @@ class Welcome {
   }
 
   private function show( $page = 'home', $title = 'Boogie Board', $head_foot = TRUE ){
+    global $geomaticly;
     $current_page = $page;
 
     if ($head_foot){

@@ -21,6 +21,7 @@ foreach( $path_info as $key => $value ){
 
 // Open controller
 if( file_exists("controllers/{$controller}.php") ){
+
   require_once "controllers/{$controller}.php";
   $page = new $controller;
   # Check if method exists
