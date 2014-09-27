@@ -7,7 +7,16 @@ class Welcome {
     $current_page = '';
   }
 
-  public function show( $page = 'home', $title = 'Boogie Board', $head_foot = TRUE ){
+  public function load_view( $page = 'home', $title = 'Boogie Board', $head_foot = TRUE ){
+    # Set geomaticly content
+    global $geomaticly;
+    $geonav = $geomaticly->module('HARwcNCWU7Rr9uPz'); # Navigation
+    $geoheader = $geomaticly->module('F9w6XqkDpCiFts8k'); # Header
+    $geofooter = $geomaticly->module('CEmWNBOVEkJbmbBZ'); # Footer
+    $geoproducts = $geomaticly->module('4q6YTMsOFduabnOM'); # Products
+    $geoabout = $geomaticly->module('NYtN5tUhbicFNjPv'); # About us
+    $geocontact = $geomaticly->module('yXrd95G8JTJtFdcD'); # Contact Us
+
     if ($page === 'home'){
       $currentPage = 'main';
     } else {
@@ -15,17 +24,17 @@ class Welcome {
     }
 
     if ($head_foot){
-      // Load default header/footer along with page
+      # Load default header/footer along with page
       include 'views/_inc/_header.inc';
       include 'views/welcome/' . $currentPage . '.php';
       include 'views/_inc/_footer.inc';
     } else {
-      // Just load page, don't load default header/footer
+      # Just load page, don't load default header/footer
       include 'views/welcome/' . $currentPage . '.php';
     }
   }
 
   public function index( $variables ){
-    $this->show( 'home', 'Boogie Board', TRUE );
+    $this->load_view( 'home', 'Boogie Board', TRUE );
   }
 }

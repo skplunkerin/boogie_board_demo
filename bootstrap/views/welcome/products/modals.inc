@@ -11,16 +11,16 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Project Title</h2>
+                        <h2><?php echo $geoproducts['product_title_1']; ?></h2>
                         <hr class="star-primary">
-                        <img src="http://placehold.it/900x650&text=1" class="img-responsive img-centered" alt="">
-                        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+                        <img src="<?php echo $geoproducts['product_large_image_1']; ?>" class="img-responsive img-centered" alt="">
+                        <p>
+                          <?php echo $geoproducts['product_intro_1']; ?>
+                        </p>
                         <ul class="list-inline item-details">
                             <li><strong><a href="#">Buy</a></strong>
                             </li>
                             <li><strong><a href="#">Reviews</a></strong>
-                            </li>
-                            <li><strong><a href="#">Gallery</a></strong>
                             </li>
                         </ul>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -42,16 +42,16 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Project Title</h2>
+                        <h2><?php echo $geoproducts['product_title_2']; ?></h2>
                         <hr class="star-primary">
-                        <img src="http://placehold.it/900x650&text=2" class="img-responsive img-centered" alt="">
-                        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+                        <img src="<?php echo $geoproducts['product_large_image_2']; ?>" class="img-responsive img-centered" alt="">
+                        <p>
+                          <?php echo $geoproducts['product_intro_2']; ?>
+                        </p>
                         <ul class="list-inline item-details">
                             <li><strong><a href="#">Buy</a></strong>
                             </li>
                             <li><strong><a href="#">Reviews</a></strong>
-                            </li>
-                            <li><strong><a href="#">Gallery</a></strong>
                             </li>
                         </ul>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -73,16 +73,16 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Project Title</h2>
+                        <h2><?php echo $geoproducts['product_title_3']; ?></h2>
                         <hr class="star-primary">
-                        <img src="http://placehold.it/900x650&text=3" class="img-responsive img-centered" alt="">
-                        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+                        <img src="<?php echo $geoproducts['product_large_image_3']; ?>" class="img-responsive img-centered" alt="">
+                        <p>
+                          <?php echo $geoproducts['product_intro_3']; ?>
+                        </p>
                         <ul class="list-inline item-details">
                             <li><strong><a href="#">Buy</a></strong>
                             </li>
                             <li><strong><a href="#">Reviews</a></strong>
-                            </li>
-                            <li><strong><a href="#">Gallery</a></strong>
                             </li>
                         </ul>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -104,16 +104,16 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Project Title</h2>
+                        <h2><?php echo $geoproducts['product_title_4']; ?></h2>
                         <hr class="star-primary">
-                        <img src="http://placehold.it/900x650&text=4" class="img-responsive img-centered" alt="">
-                        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+                        <img src="<?php echo $geoproducts['product_large_image_4']; ?>" class="img-responsive img-centered" alt="">
+                        <p>
+                          <?php echo $geoproducts['product_intro_4']; ?>
+                        </p>
                         <ul class="list-inline item-details">
                             <li><strong><a href="#">Buy</a></strong>
                             </li>
                             <li><strong><a href="#">Reviews</a></strong>
-                            </li>
-                            <li><strong><a href="#">Gallery</a></strong>
                             </li>
                         </ul>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -135,16 +135,16 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Project Title</h2>
+                        <h2><?php echo $geoproducts['product_title_5']; ?></h2>
                         <hr class="star-primary">
-                        <img src="http://placehold.it/900x650&text=5" class="img-responsive img-centered" alt="">
-                        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+                        <img src="<?php echo $geoproducts['product_large_image_5']; ?>" class="img-responsive img-centered" alt="">
+                        <p>
+                          <?php echo $geoproducts['product_intro_5']; ?>
+                        </p>
                         <ul class="list-inline item-details">
                             <li><strong><a href="#">Buy</a></strong>
                             </li>
                             <li><strong><a href="#">Reviews</a></strong>
-                            </li>
-                            <li><strong><a href="#">Gallery</a></strong>
                             </li>
                         </ul>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -166,16 +166,16 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Project Title</h2>
+                        <h2><?php echo $geoproducts['product_title_6']; ?></h2>
                         <hr class="star-primary">
-                        <img src="http://placehold.it/900x650&text=6" class="img-responsive img-centered" alt="">
-                        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+                        <img src="<?php echo $geoproducts['product_large_image_6']; ?>" class="img-responsive img-centered" alt="">
+                        <p>
+                          <?php echo $geoproducts['product_intro_6']; ?>
+                        </p>
                         <ul class="list-inline item-details">
                             <li><strong><a href="#">Buy</a></strong>
                             </li>
                             <li><strong><a href="#">Reviews</a></strong>
-                            </li>
-                            <li><strong><a href="#">Gallery</a></strong>
                             </li>
                         </ul>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>

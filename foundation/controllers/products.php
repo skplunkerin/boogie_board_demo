@@ -7,22 +7,28 @@ class Products {
     $current_page = '';
   }
 
-  private function show( $page = 'home', $title = 'Boogie Board', $head_foot = TRUE ){
+  private function load_view( $page = 'home', $title = 'Boogie Board', $head_foot = TRUE ){
+    # Set geomaticly content
+    global $geomaticly;
+    $geonav = $geomaticly->module('HARwcNCWU7Rr9uPz'); # Navigation
+    $geofooter = $geomaticly->module('CEmWNBOVEkJbmbBZ'); # Footer
+    $geoproducts = $geomaticly->module('4q6YTMsOFduabnOM'); # Products
+
     $current_page = $page;
 
     if ($head_foot){
-      // Load default header/footer along with page
+      # Load default header/footer along with page
       include 'views/_inc/_header.inc';
       include 'views/products/' . $page . '.php';
       include 'views/_inc/_footer.inc';
     } else {
-      // Just load page, don't load default header/footer
+      # Just load page, don't load default header/footer
       include 'views/welcome/' . $page . '.php';
     }
   }
 
   public function index( $variables ){
-    $this->show( 'home' );
+    $this->load_view( 'home' );
   }
 
   public function all( $variables ){
@@ -30,6 +36,6 @@ class Products {
   }
 
   public function a( $variables ){
-    $this->show( 'a/' . $variables[0], 'Product | Boogie Board' );
+    $this->load_view( 'a/' . $variables[0], 'Product | Boogie Board' );
   }
 }

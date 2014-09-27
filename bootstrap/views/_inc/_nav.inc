@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#page-top">Boogie Board</a>
+            <a class="navbar-brand" href="#page-top"><?php echo $geonav["home_title"]; ?></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -19,13 +19,13 @@
                     <a href="#page-top"></a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#portfolio">Products</a>
+                    <a href="#portfolio"><?php echo $geonav["products"]; ?></a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#about">About</a>
+                    <a href="#about"><?php echo $geonav["about"]; ?></a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#contact">Contact</a>
+                    <a href="#contact"><?php echo $geonav["contact"]; ?></a>
                 </li>
             </ul>
         </div>

@@ -4,8 +4,9 @@
             <div class="row">
                 <div class="footer-col col-md-4">
                     <h3>Location</h3>
-                    <p>Somewhere
-                        <br>Over There, NV 01010</p>
+                    <p>
+                      <?php echo $geofooter['location']; ?>
+                    </p>
                 </div>
                 <div class="footer-col col-md-4">
                     <h3>Non Anti-Social</h3>
@@ -23,8 +24,10 @@
                     </ul>
                 </div>
                 <div class="footer-col col-md-4">
-                    <h3>Lorem Ipsum</h3>
-                    <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit.</p>
+                    <h3>Quote of the Day</h3>
+                    <p>
+                      <?php echo $geofooter['quote']; ?>
+                    </p>
                 </div>
             </div>
         </div>
@@ -33,7 +36,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    Copyright &copy; 2014 - Boogie Board
+                    <?php echo $geofooter['copyright_message']; ?>
                 </div>
             </div>
         </div>

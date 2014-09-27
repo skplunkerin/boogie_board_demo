@@ -1,11 +1,8 @@
-<?php
-$geonav = $geomaticly->module('HARwcNCWU7Rr9uPz');
-?>
 <div class="row">
   <div class="large-3 columns">
     <h1>
       <a href="<?php echo BASE_URL; ?>">
-        <img src="http://placehold.it/400x100&text=Logo">
+        <img src="<?php echo $geoheader["logo_small_wide"]; ?>">
       </a>
     </h1>
     </div>

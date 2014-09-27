@@ -3,7 +3,7 @@
         <hr/>
         <div class="row">
           <div class="large-6 columns">
-            <p><?php echo date('Y'); ?> &copy; Copyright no one at all. Go to town.</p>
+            <p><?php echo $geofooter['copyright_message']; ?></p>
           </div>
           <?php require "_nav_foot.inc"; ?>
         </div>

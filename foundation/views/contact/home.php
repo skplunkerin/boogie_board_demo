@@ -1,6 +1,6 @@
 <div class="row">
   <div class="large-12 columns">
-    <h1>CONTACT US</h1>
+    <h1><?php echo $geocontact['title_1']; ?></h1>
     <hr>
   </div>
 </div>
@@ -9,19 +9,19 @@
   <div class="row">
     <div class="form-group large-12 columns floating-label-form-group">
       <label for="name">Name</label>
-      <input class="form-control" type="text" name="name" placeholder="Name">
+      <input class="form-control" type="text" name="name" placeholder="<?php echo $geocontact['name_placeholder']; ?>">
     </div>
   </div>
   <div class="row">
     <div class="form-group large-12 columns floating-label-form-group">
       <label for="email">Email Address</label>
-      <input class="form-control" type="email" name="email" placeholder="Email Address">
+      <input class="form-control" type="email" name="email" placeholder="<?php echo $geocontact['email_placeholder']; ?>">
     </div>
   </div>
   <div class="row">
     <div class="form-group large-12 columns floating-label-form-group">
       <label for="message">Message</label>
-      <textarea placeholder="Message" class="form-control" rows="5"></textarea>
+      <textarea placeholder="<?php echo $geocontact['message_placeholder']; ?>" class="form-control" rows="5"></textarea>
     </div>
   </div>
   <br />
