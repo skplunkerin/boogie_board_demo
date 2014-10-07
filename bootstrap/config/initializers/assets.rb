@@ -13,11 +13,11 @@ Rails.application.config.assets.precompile += %w( bootstrap.min.css )
 Rails.application.config.assets.precompile += %w( freelancer.css )
 
 # Fonts
-Rails.application.config.assets.precompile += %w( fonts/font-awesome/css/font-awesome.min.css )
-Rails.application.config.assets.precompile += %w( fonts/glyphicons-halflings-regular.eot )
-Rails.application.config.assets.precompile += %w( fonts/glyphicons-halflings-regular.svg )
-Rails.application.config.assets.precompile += %w( fonts/glyphicons-halflings-regular.ttf )
-Rails.application.config.assets.precompile += %w( fonts/glyphicons-halflings-regular.woff )
+Rails.application.config.assets.precompile += %w( font-awesome/css/font-awesome.min.css )
+# Rails.application.config.assets.precompile += %w( fonts/glyphicons-halflings-regular.eot )
+# Rails.application.config.assets.precompile += %w( fonts/glyphicons-halflings-regular.svg )
+# Rails.application.config.assets.precompile += %w( fonts/glyphicons-halflings-regular.ttf )
+# Rails.application.config.assets.precompile += %w( fonts/glyphicons-halflings-regular.woff )
 
 # Javascript
 Rails.application.config.assets.precompile += %w( jquery-1.10.2.js )
