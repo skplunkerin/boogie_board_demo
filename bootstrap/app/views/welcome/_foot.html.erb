@@ -5,7 +5,7 @@
                 <div class="footer-col col-md-4">
                     <h3>Location</h3>               
                     <p>        
-                      <?php echo $geofooter['location']; ?> 
+                      <%= @geofooter['location'] %> 
                     </p>       
                 </div>         
                 <div class="footer-col col-md-4">
@@ -26,7 +26,7 @@
                 <div class="footer-col col-md-4">
                     <h3>Quote of the Day</h3>
                     <p>
-                      <?php echo $geofooter['quote']; ?>
+                      <%= @geofooter['quote'] %>
                     </p>
                 </div>
             </div>
@@ -36,7 +36,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <?php echo $geofooter['copyright_message']; ?>
+                    <%= @geofooter['copyright_message'] %>
                 </div>
             </div>
         </div>
