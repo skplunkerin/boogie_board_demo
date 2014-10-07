@@ -1,0 +1,12 @@
+development:
+  geomaticly: 
+    apikey: ****************
+    apiurl: http://cdn.geomatic.ly/publish
+test:
+  geomaticly: 
+    apikey: 
+    apiurl: 
+production:
+  geomaticly: 
+    apikey: 
+    apiurl:
