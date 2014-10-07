@@ -1,0 +1,17 @@
+<%= render :partial => 'head' %>
+
+<%= render :partial => "#{@path[:products]}overview" %>
+
+<%= render :partial => 'about' %>
+
+<%= render :partial => 'contact' %>
+
+<%= render :partial => 'foot' %>
+
+<div class="scroll-top page-scroll visible-xs visble-sm">
+    <a class="btn btn-primary" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+</div>
+
+<%= render :partial => "#{@path[:products]}modals" %>
