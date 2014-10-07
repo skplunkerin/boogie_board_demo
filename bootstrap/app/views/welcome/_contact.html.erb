@@ -2,7 +2,7 @@
     <div class="container">    
         <div class="row">      
             <div class="col-lg-12 text-center">
-                <h2><%= @geocontact['title_1'] %></h2> 
+                <h2><%= @geocontact.title_1.html_safe %></h2> 
                 <hr class="star-primary">       
             </div>             
         </div>                 
@@ -12,19 +12,19 @@
                     <div class="row">               
                         <div class="form-group col-xs-12 floating-label-form-group">
                             <label for="name">Name</label>  
-                            <input class="form-control" type="text" name="name" placeholder="<%= @geocontact['name_placeholder'] %>">
+                            <input class="form-control" type="text" name="name" placeholder="<%= @geocontact.name_placeholder.html_safe %>">
                         </div> 
                     </div>     
                     <div class="row">               
                         <div class="form-group col-xs-12 floating-label-form-group">
                             <label for="email">Email Address</label>
-                            <input class="form-control" type="email" name="email" placeholder="<%= @geocontact['email_placeholder'] %>">
+                            <input class="form-control" type="email" name="email" placeholder="<%= @geocontact.email_placeholder.html_safe %>">
                         </div> 
                     </div>     
                     <div class="row">                   
                         <div class="form-group col-xs-12 floating-label-form-group">
                             <label for="message">Message</label>
-                            <textarea placeholder="<%= @geocontact['message_placeholder'] %>" class="form-control" rows="5"></textarea>
+                            <textarea placeholder="<%= @geocontact.message_placeholder.html_safe %>" class="form-control" rows="5"></textarea>
                         </div> 
                     </div>     
                     <br>
