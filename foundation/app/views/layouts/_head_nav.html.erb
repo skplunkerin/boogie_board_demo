@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="large-3 columns">
+    <h1>
+      <a href="<%= root_path %>">
+        <img src="<%= @geoheader.logo_small_wide.html_safe %>">
+      </a>
+    </h1>
+    </div>
+    <div class="large-9 columns">
+      <ul class="button-group right">
+        <li><a href="<%= root_path %>" class="button"><%= @geonav.home.html_safe %></a></li>
+        <li><a href="<%= products_path %>" class="button"><%= @geonav.products.html_safe %></a></li>
+        <li><a href="<%= about_path %>" class="button"><%= @geonav.about.html_safe %></a></li>
+        <li><a href="<%= contact_us_path %>" class="button"><%= @geonav.contact.html_safe %></a></li>
+      </ul>
+  </div>
+</div>

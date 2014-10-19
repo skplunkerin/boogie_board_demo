@@ -1,2 +1,23 @@
-<h1>Welcome#about</h1>
-<p>Find me in app/views/welcome/about.html.erb</p>
+<div class="row">
+  <div class="large-12 columns">
+    <h1><%= @geoabout.title_1.html_safe %></h1>
+    <hr>
+  </div>
+</div>
+
+<div class="row">
+  <div class="large-8 columns">
+    <p>
+      <%= @geoabout.paragraph_1.html_safe %>
+    </p>
+    <p>
+      <%= @geoabout.paragraph_2.html_safe %>
+    </p>
+    <p>
+      <%= @geoabout.paragraph_3.html_safe %>
+    </p>
+  </div>
+  <div class="large-4 columns">
+    <img src="<%= @geoabout.image_1.html_safe %>">
+  </div>
+</div>

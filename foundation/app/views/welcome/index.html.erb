@@ -1,2 +1,46 @@
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
+<div class="row">
+  <div class="large-12 columns">
+    <img src="<%= @geoheader.cta_image_1.html_safe %>">
+    <hr>
+  </div>
+</div>
+ 
+<div class="row">
+  <div class="large-12 columns">
+    <h4>Products</h4>
+    <div class="row">
+      <div class="large-4 columns">
+        <a href="<?php echo BASE_URL; ?>products/1">
+          <img src="<%= @geoproducts.product_image_1.html_safe %>">
+        </a>
+      </div>
+      
+      <div class="large-4 columns">
+        <p><%= @geoproducts.product_intro_1.html_safe %></p>
+        <a href="<?php echo BASE_URL; ?>products/1"><%= @geoproducts.product_title_1.html_safe %></a>
+      </div>
+
+      <div class="large-4 columns">
+        <p><%= @geoproducts.product_intro_2.html_safe %></p>
+        <a href="<?php echo BASE_URL; ?>products/2"><%= @geoproducts.product_title_2.html_safe %></a>
+      </div>
+    </div>
+  </div>
+</div>
+<br />
+ 
+<div class="row">
+  <div class="large-8 columns">
+    <h4><%= @geoabout.title_1.html_safe %></h4>
+    <p>
+      <%= @geoabout.paragraph_1.html_safe %>
+    </p>
+    <p>
+      <%= @geoabout.paragraph_2.html_safe %>
+    </p>
+    <a href="<?php echo BASE_URL; ?>welcome/about">Read more</a>
+  </div>
+  <div class="large-4 columns">
+    <img src="<%= @geoabout.image_1.html_safe %>">
+  </div>
+</div>

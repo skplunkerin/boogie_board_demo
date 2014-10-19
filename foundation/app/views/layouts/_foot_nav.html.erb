@@ -1,0 +1,18 @@
+<footer class="row">
+  <div class="large-12 columns">
+    <hr/>
+    <div class="row">
+      <div class="large-6 columns">
+        <p><%= @geofooter['copyright_message']; ?></p>
+      </div>
+      <div class="large-6 columns">
+        <ul class="inline-list right">
+          <li><a href="<%= root_path %>"><%= @geonav.home.html_safe %></a></li>
+          <li><a href="<%= products_path %>"><%= @geonav.products.html_safe %></a></li>
+          <li><a href="<%= about_path %>"><%= @geonav.about.html_safe %></a></li>
+          <li><a href="<%= contact_us_path %>"><%= @geonav.contact.html_safe %></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
