@@ -1,8 +1,20 @@
-Purpose of this site is to display a demo of a fake company called "Boogie Board" which shows how Geomaticly is used.
+Demo PHP site for [Geomatic.ly]
+===============================
 
-You'll find two branches, php and rails. The php branch shows two demo php sites, and rails shows two rails demo sites; one template will use Bootstrap, the other will use Foundation.
+### The following content in this \`php` branch
+ * [Bootstrap themed] demo
+ * [Foundation themed] demo
 
-To get this project up-and-running you'll need to:
-* (inside both bootstrap/ & foundation/ directories) Copy .htaccess-example -> .htaccess, and copy constants.php-example -> constants.php
+#### To get this project up-and-running you'll need to:
+* (inside both bootstrap/ & foundation/ directories) 
+  * Copy .htaccess-example -> .htaccess
+  * Copy constants.php-example -> constants.php
+  * Copy helpers/geomaticly.php-example -> helpers/geomaticly.php
      * Then make sure you fix the paths to match where you project sits
-* (For PHP deployment) Update your apache sites-available conf file to contain `AllowOverride All`
+* Apache configurations:
+  * Update your apache sites-available conf file to contain `AllowOverride All`
+  * Run `sudo a2enmod rewrite` then `sudo service apache2 restart`
+
+[Geomatic.ly]:https://geomatic.ly/
+[Bootstrap themed]:http://startbootstrap.com/template-overviews/freelancer/
+[Foundation themed]:http://foundation.zurb.com/templates/banded.html
