@@ -48,3 +48,62 @@ class Geomatic
       if !item["title"].empty?
         block = {item["method"] => item["body"]}
         blocks.merge!(block)
+      end
+    end
+    data = OpenStruct.new(blocks)
+    return data
+  end
+
+  #PAGE IS DEPRICATED
+  def self.page(key, ip)
+    response = apicall(key, ip)
+    blocks = {}
+    for item in response
+      if !item["title"].empty?
+        block = {item["method"] => item["body"]}
+        blocks.merge!(block)
+      end
+    end
+    data = OpenStruct.new(blocks)
+    return data
+  end
+
+  #USED FOR GEOCODING
+  def self.geolocate(params)
+    geocoder = Geocoder.search("#{params.to_s}")
+  end
+
+  def self.get_country(key, ip)
+    response = apicall("https://geomatic.ly/api/v1/geo/ip/?apikey=#{APP_CONFIG['geomaticly']['apikey']}&ip=#{ip}")
+    return response["country_code3"].downcase
+  end
+
+  def self.prod_content(key, ip, language)
+    country = get_country(key, ip)
+    content = open("#{APP_CONFIG['geomaticly']['apiurl']}/#{APP_CONFIG['geomaticly']['apikey']}/#{key}/#{country}/#{language}.json") { |f| f.read }
+    return content
+  end
+
+  def self.apicall(url)
+    uri = URI.parse("#{url}")
+    http = Net::HTTP.new(uri.host, uri.port)
+    http.use_ssl = true
+    response = http.request(Net::HTTP::Get.new(uri.request_uri))
+    json = JSON.parse(response.body)
+    return json
+  end
+
+  def self.get_default(key)
+    uri = URI.parse("#{APP_CONFIG['geomaticly']['apiurl']}/#{APP_CONFIG['geomaticly']['apikey']}/#{key}/default/default.json")
+    http = Net::HTTP.new(uri.host, uri.port)
+    response = http.request(Net::HTTP::Get.new(uri.request_uri))
+    if response.code != "200"
+      #TODO: NO DEFAULT RESPONSE
+      p "NO DEFAULT"
+    else
+      json = JSON.parse(response.body)
+    end
+    return json
+  end
+
+end

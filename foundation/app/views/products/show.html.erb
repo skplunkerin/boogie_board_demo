@@ -1,6 +1,6 @@
 <div class="row">
   <div class="large-12 columns">
-    <h1><%= @geoproducts.product_title_1.html_safe %></h1>
+    <h1><%= @content['title'] %></h1>
     <hr>
   </div>
 </div>
@@ -8,13 +8,13 @@
 <div class="row">
   <div class="large-8 columns">
     <p>
-      <%= @geoproducts.product_intro_1.html_safe %>
+      <%= @content['intro'] %>
       <br />
       <br />
-      <%= @geoproducts.product_description_1.html_safe %>
+      <%= @content['desc'] %>
     </p>
   </div>
   <div class="large-4 columns">
-    <img src="<%= @geoproducts.product_image_1.html_safe %>">
+    <img src="<%= @content['img'] %>">
   </div>
 </div>

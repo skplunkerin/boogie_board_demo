@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   get 'contact/index'
   get 'products/index'
+  get 'products/:id' => 'products#show', :as => 'product'
   get 'welcome/index'
   get 'welcome/about'
 
